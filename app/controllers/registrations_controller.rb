@@ -15,7 +15,7 @@ class RegistrationsController < ApplicationController
        # flash[:alert] = "Something was wrong"
         render :new
     end  
-  end
+  end        
 
   private
   def user_params
