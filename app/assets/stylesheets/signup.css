@@ -10,8 +10,8 @@
     background-color: black;
     text-align: center;
     flex-direction: column;
-    border-radius: 25px;
-
+    border-radius: 125px;
+   
 }
 .boxes{
     display: grid;
@@ -20,7 +20,7 @@
     border-width: 5px;
     box-sizing: content-box;
     color: rgb(255, 254, 253);
-    border-radius: 35px;
+    border-radius: 165px;
 }
 .shape{
 
@@ -28,12 +28,12 @@
     background-color: black;
 }
 
-/* .btn{
+.btn{
 
     color: wheat;
     background-color: tomato;
 }
 .btn:hover{
     background-color: rgb(255, 255, 255);
-    animation-duration: 5s;
-} */
+    transition-duration: 0.7s;
+}
