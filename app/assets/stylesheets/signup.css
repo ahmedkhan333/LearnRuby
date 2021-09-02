@@ -1,3 +1,5 @@
+
+
 #h1{
 
     color: rgb(255, 255, 255);
@@ -11,6 +13,7 @@
     text-align: center;
     flex-direction: column;
     border-radius: 125px;
+    text-decoration: wavy;
    
 }
 .boxes{
@@ -24,14 +27,15 @@
 }
 .shape{
 
-  /*  background-image: url("../images/sigup.jpg");  */
-    background-color: black;
+      
+    background-color: rgb(6, 55, 85);
+ 
 }
 
 .btn{
 
-    color: wheat;
-    background-color: tomato;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 .btn:hover{
     background-color: rgb(255, 255, 255);
