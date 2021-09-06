@@ -1,0 +1,35 @@
+   
+            <h1 id = "h1">
+            <%= @student.name %> 
+            </h1>   
+         <div class="shape" id="shape">   
+         <div class="boxes">      
+   
+                <div class="Labels">   
+                  <label>Student Name:</label>   
+                  <%= @student.name %>   
+                </div>   
+      
+                <div class="Labels">   
+                  <label>School:</label>   
+                  <%= @student.School %>   
+                </div>   
+                
+                <div class="Labels">   
+                  <label>Phone:</label>   
+                  <%= @student.phone %>   
+                </div>   
+
+
+                <div class="Labels">   
+                  <label>Instagram:</label>   
+                  <%= @student.instagram %>   
+                </div>   
+
+             
+          <div>   
+          <br/>
+            <%= link_to 'Back', { controller: 'student', action: 'index'} , class:"btn btn-danger" %>   
+          </div> 
+          </div>  
+    </div>  

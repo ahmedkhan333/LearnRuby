@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :participants
+  resources :student
   #GEt /about
  
   get "about",to:"about#index"
@@ -20,8 +20,7 @@ Rails.application.routes.draw do
  get "password/reset/edit", to: "password_resets#edit"
  patch "password/reset/edit", to: "password_resets#update"
 
- #crud things start here
- get "/participants",to: "participants#index"
+
 
  root to:"main#index"
 

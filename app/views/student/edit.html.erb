@@ -1,0 +1,31 @@
+  <h1 id="h1">Update Student</h1> 
+<div class="shape">   
+   
+<%= form_for @student, url: {action: :update} do |f| %>     
+ <%= "<div>#{@student.errors.full_messages.first}</div>".html_safe if @student.errors.any? %>   
+  <div class="boxes">
+   <div class="mb-3">   
+                <%= f.label :name %>  
+                  <%= f.text_field :name, class:"form-control" %>   
+            </div>   
+      
+            <div class="mb-3">   
+                 <%= f.label :School %>  
+                 <%= f.text_field :School, class:"form-control" %>   
+            </div>   
+      
+            <div class="mb-3">   
+              <%= f.label :phone %> 
+                  <%= f.text_field :phone, class:"form-control"%>   
+            </div>   
+            <div class="mb-3">   
+               <%= f.label :instagram %>  
+                  <%= f.text_field :instagram, class:"form-control" %>   
+            </div>
+         
+          <div class="mb-3">   
+            <%= link_to 'Back', { controller: 'student', action: 'index'} , class:"btn btn-success"%>   
+            <%= f.submit 'Update Student', class:"btn btn-dark" %>   
+          </div> 
+    </div> 
+<% end %>   

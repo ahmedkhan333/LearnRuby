@@ -1,5 +1,6 @@
-<div class="shape">
+
 <h1 id="h1">Sign Up</h1>
+<div class="shape">
 <%= form_with model: @user, url: sign_up_path  do |form| %>
 
 <% if form.object.errors.any? %>
@@ -13,9 +14,9 @@
 </div>
 <% end %>
  <div class="boxes">
-    <div class="mb-3" >
+    <div class="mb-3">
         <%= form.label :email %>
-        <%= form.text_field :email, class:"form-control", placeholder: "youremail@example.com" %>
+        <%= form.text_field :email , placeholder: "youremail@example.com" %>
         </div>
         <div class="mb-3" >
         <%= form.label :password %>
@@ -30,6 +31,6 @@
     <%= form.submit "Sign Up", class:"btn"%>
     </div>
     </div>
-</div>
-<% end %>
 
+<% end %>
+</div>

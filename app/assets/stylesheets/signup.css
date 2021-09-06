@@ -23,7 +23,7 @@
     border-width: 5px;
     box-sizing: content-box;
     color: rgb(255, 254, 253);
-    border-radius: 165px;
+    border-radius: 65px;
 }
 .shape{
 
@@ -31,13 +31,68 @@
     background-color: rgb(6, 55, 85);
  
 }
+#shape{
 
-.btn{
+    background-color: black;
+}
+.btun{
 
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
-.btn:hover{
+.btun:hover{
     background-color: rgb(255, 255, 255);
     transition-duration: 0.7s;
+} 
+
+.btn-group{
+    color: white;
+background-color: rgba(0, 204, 255, 0.856);
+}
+
+.btn-group:hover{
+
+    background-color: rgba(0, 195, 255, 0.747);
+    transition-duration: 0.6s;
+}
+#toogle{
+
+   background-color: rgb(199, 202, 14);
+}
+
+.dropdown-item{
+    background-color: black;
+    color: white;
+
+   
+
+}
+.dropdown-item:hover{
+
+    margin-left: 25px;
+    background-color: cornflowerblue;
+    transition-duration: 0.8s;
+
+
+}
+.dropdown-menu{
+    background: none;
+}
+
+.Labels{
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-style: bold;
+font-size: large;
+text-shadow: cornsilk;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+.Labels:hover{
+
+    background-color: rgba(1, 163, 88, 0.603);
+    transition-duration: 0.6s;
+    color: darkorange;
+    font-style: italic;
 }

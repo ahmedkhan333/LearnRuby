@@ -1,0 +1,42 @@
+<div class="container">   
+    <h1 id="h1">Students</h1>   
+     
+       
+      <br>   
+           <div>   
+        <%= link_to 'Add Student', new_student_path, class:"btn btn-success" %>   
+
+      </div> 
+      <br/>
+    <table class="table table-dark table-striped table-hover">   
+      <thead>   
+      <tr>   
+        <th>Name</th>   
+        <th>School</th>   
+        <th>Phone</th>   
+        <th>Instagram</th>   
+        <th>Operations</th>
+      </tr>   
+      </thead>   
+      <tbody>   
+      <% @students.each do |student| %>   
+          <tr>   
+            <td><%= student.name %></td>   
+            <td><%= student.School %></td>   
+            <td><%= student.phone %></td>
+            <td><%= student.instagram %></td>   
+               
+ <div>   
+               <td>   
+                <%= link_to 'Show', student_path(student), class:"btn btn-info" %>   
+                <%= link_to 'Edit', edit_student_path(student), class:"btn btn-success" %>   
+                <%= link_to 'Delete', student_path(student), method: :delete, class:"btn btn-danger" %>   
+              </div>   
+            </td>    
+
+          </tr>   
+      <% end %>   
+      </tbody>   
+    </table>   
+
+    </div>   
