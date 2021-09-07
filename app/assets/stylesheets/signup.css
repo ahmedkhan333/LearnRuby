@@ -26,9 +26,7 @@
     border-radius: 65px;
 }
 .shape{
-
-      
-    background-color: rgb(6, 55, 85);
+  background-color: rgb(6, 55, 85);
  
 }
 #shape{
@@ -63,9 +61,6 @@ background-color: rgba(0, 204, 255, 0.856);
 .dropdown-item{
     background-color: black;
     color: white;
-
-   
-
 }
 .dropdown-item:hover{
 

@@ -54,7 +54,7 @@ class StudentController < ApplicationController
  def destroy   
     @student = Student.find(params[:id])   
     if @student.delete   
-      flash[:notice] = 'Student deleted!'   
+      flash[:notice] =  'Student deleted!'   
      redirect_to student_index_path  
     else   
       flash[:error] = 'Failed to delete this student!'   
