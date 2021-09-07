@@ -30,7 +30,11 @@
                <%= f.label :instagram %>  
                   <%= f.text_field :instagram, class:"form-control" %>   
             </div>
-         
+          <div class="mb-3">   
+               <%= f.label :degree %>  
+                  <%= f.text_field :degree, class:"form-control" %>   
+            </div>
+
           <div class="mb-3">   
             <%= link_to 'Back', { controller: 'student', action: 'index'} , class:"btn btn-success"%>   
             <%= f.submit 'Create Student', class:"btn btn-dark" %>   
